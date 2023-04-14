@@ -1,0 +1,224 @@
+.main {
+  height: 500px;
+  width: 100%;
+  background-image: url('https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGJsdWUlMjBiYWNrZ3JvdW5kc3xlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  height: 50px;
+  width: 100%;
+  position: relative;
+  padding: 20px 30px;
+}
+
+.navbar .logo {
+  display: inline-block;
+  color: #fff;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.navbar .logo h3 {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.navbarMenu {
+  display: inline;
+  float: right;
+  font-size: 0.9rem;
+  padding: 20px;
+}
+
+.navbarMenu li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.navbarMenu li a {
+  text-decoration: none;
+  color: #efefef;
+}
+
+.navbarMenu li a:hover {
+  color: rgb(32, 140, 255);
+  cursor: pointer;
+}
+
+.navbarMenu button {
+  background-color: #54abe8;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 8px;
+  color: #efefef;
+  cursor: pointer;
+}
+
+.container {
+  height: auto;
+  padding: 10px 50px;
+}
+
+.container .hero {
+  margin: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .text {
+  text-align: center;
+  color: #efefef;
+  padding: 30px 10px;
+}
+
+.container .text h1 {
+  padding-bottom: 30px;
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+.container .text p {
+  padding: 10px;
+  font-weight: 200;
+}
+
+.section {
+  height: 250px;
+  padding: 50px;
+  align-items: center;
+  display: grid;
+}
+
+.content .mission {
+  text-align: center;
+  width: auto 50%;
+}
+
+.content .mission h1 {
+  padding-bottom: 30px;
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+.content .mission p {
+  color: rgb(143, 143, 141);
+  font-weight: 200;
+  padding: 0 100px;
+}
+
+/* about */
+.team {
+  padding: 80px;
+  background-color: rgb(192, 216, 242);
+}
+
+.team .teamHeader {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+.teamHeader h1 {
+  font-size: 1.5em;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+
+.dropdownItem {
+  list-style: none;
+}
+
+/* card */
+.cards_wrap {
+	padding: 30px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.cards_wrap .card_item {
+	padding: 30px;
+	width: 25%;
+  display: grid;
+}
+
+.cards_wrap .card_inner {
+	background: #fff;
+	border-radius: 5px;
+	padding: 35px 20px;
+	min-width: 225px;
+	min-height: 315px;
+	max-height: 370px;
+	width: 100%;
+  text-align: center;
+  line-height: 1.3rem;
+}
+
+.cards_wrap .card_item img {
+  width: 130px;
+  height: 130px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cards_wrap .card_item .name {
+  color: rgb(32, 140, 255);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.cards_wrap .card_item .position {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 13px;
+  margin: 5px 10px;
+}
+
+.cards_wrap .card_item .description {
+  font-size: 13px;
+  color: rgb(143, 143, 141);
+}
+
+@media screen and (max-width: 1024px){
+  .cards_wrap .card_item {
+    width: 33%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .cards_wrap .card_item {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 568px){
+  .cards_wrap .card_item {
+    width: 100%;
+  }
+  .cards_wrap .card_item img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* map */
+.map_section {
+  height: 300px;
+}
+.mapouter{
+  position:relative;
+  height:100%;
+  width:100%;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:100%;
+  width:100%;
+}

@@ -1,0 +1,57 @@
+{
+    "home": "Home",
+    "service": "Services",
+    "news": "News",
+    "about": "About Us",
+    "contact": "Contact",
+
+    "about.head": "ABOUT US",
+    "about.info": "Ventive is a full service digital agency combining creativity with technical acumen to help business grow",
+    "mission": "THE MISSION",
+    "team": "OUR TEAM",
+
+    "service.title": "Block applications",
+    "service.title2": "Interrogate your infrastructure",
+    "service.title3": "Set alerts",
+    "more": "Read more",
+    "service.content1": "Get peace of mind,",
+    "service.content2": "knowing you can guarantee compliance",
+    "service.content.text1": "Get peace of mind, knowing you can guarantee compliance",
+    "service.content.text2": "Automatic whitekisting of applications",
+    "service.content.text3": "Interogate assets using Osquery for mornitoring, compliance, incident investigations etc.",
+    "service.content.text4": "Full REST API for integrations",
+    "service.content.text5": "Get up and running in 5 minutes.",
+    "service.content.text6": "No commitment",
+
+    "news.header.text": "four major steps to success",
+    "news.header": "Best chances for expanding your success to the max",
+    "news.content": "Broadening",
+    "news.content.topic1": "#1 Career advancement and hobbies",
+    "news.content2": "Scheduling",
+    "news.content.topic2": "#2 Flexible schedule & environment",
+    "news.content3": "Self-disciplin",
+    "news.content.topic3": "#3 Self-disciplin & responsibilities",
+    "news.content4": "Investment",
+    "news.content.topic4": "#4 Investment",
+
+    "contact.title": "Contact Us",
+    "contact.title.right": "Get in Touch",
+    "send": "Send",
+    
+    "footer.content.title": "Want to work together?",
+    "footer.col1.title": "Contact Us",
+    "footer.col1.link1": "hello@gmail.com",
+    "footer.col1.link2": "+3356 1589 2105",
+    "footer.col1.link3": "32, Avenue Newyork",
+    "footer.col1.link4": "321994 Newyork",
+
+    "footer.col2.title": "Get started",
+    "footer.col2.link1": "Mobile & Web development",
+    "footer.col2.link2": "User Experience ",
+    "footer.col2.link3": "Marketing & Branding",
+    "footer.col2.link4": "Business Strategy",
+
+    "footer.button": "Build with us",
+    "footer.col3.title": "Follow Us"
+
+}
