@@ -5,8 +5,22 @@
     "about": "About Us",
     "contact": "Contact",
 
+    "home.header":"Make cool Landing pages with Apolo",
+    "home.text": "* Available on iPhone, iPad and all Android devices",
+
+    "feature.title1":"Free Trail",
+    "feature.title2":"Easy to use",
+    "feature.title3":"Customizable Code",
+
+    "section.title":"Why Small Business Owner's Loves Apolo",
+
+    "signup.title":"Sign up for Newsletter",
+    "signup.text1":"You'll be informed about updates, special offers and planned changes to apolo!",
+    "signup.button":"Sign up",
+    "signup.text2":"By signing up the apolo website you agree to the TERMS OF USE.",
+
     "about.head": "ABOUT US",
-    "about.info": "Ventive is a full service digital agency combining creativity with technical acumen to help business grow",
+    "about.info": "apolo is a full service digital agency combining creativity with technical acumen to help business grow",
     "mission": "THE MISSION",
     "team": "OUR TEAM",
 
@@ -38,20 +52,19 @@
     "contact.title.right": "Get in Touch",
     "send": "Send",
     
-    "footer.content.title": "Want to work together?",
-    "footer.col1.title": "Contact Us",
-    "footer.col1.link1": "hello@gmail.com",
-    "footer.col1.link2": "+3356 1589 2105",
-    "footer.col1.link3": "32, Avenue Newyork",
-    "footer.col1.link4": "321994 Newyork",
+    "footer.col1.title": "Contact",
+    "footer.col1.link1": "Installation",
+    "footer.col1.link2": "Logging in",
 
-    "footer.col2.title": "Get started",
-    "footer.col2.link1": "Mobile & Web development",
-    "footer.col2.link2": "User Experience ",
-    "footer.col2.link3": "Marketing & Branding",
-    "footer.col2.link4": "Business Strategy",
+    "footer.col2.title": "apolo",
+    "footer.col2.link1": "About Us",
+    "footer.col2.link2": "Download",
+    "footer.col2.link3": "Sign in",
 
-    "footer.button": "Build with us",
-    "footer.col3.title": "Follow Us"
+    "footer.col3.title": "Help",
+    "footer.col3.link1": "Installation",
+    "footer.col3.link2": "Logging in",
+    "footer.col3.link3": "Content",
+    "footer.col3.link4": "Configuration"
 
 }

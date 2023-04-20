@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/About.module.css'
 import Team from '../components/Team';
 import { FormattedMessage } from 'react-intl';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 
 export default function About() {
 
@@ -10,24 +12,25 @@ export default function About() {
     return (
         <div>
             <div className={styles.container}>
+                <Navbar />
                 <div className={styles.hero}>
                     <div className={styles.text}>
-                        <h1><FormattedMessage id="about.head"/></h1>
-                        <p><FormattedMessage id="about.info"/></p>
+                        <h1><FormattedMessage id="about.head" /></h1>
+                        <p><FormattedMessage id="about.info" /></p>
                     </div>
                 </div>
             </div>
             <section className={styles.section}>
                 <div className={styles.content}>
                     <div className={styles.mission}>
-                        <h1><FormattedMessage id="mission"/></h1>
+                        <h1><FormattedMessage id="mission" /></h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempor nulla nec lacus dictum, nec maximus ipsum sagittis. Sed ultrices.</p>
                     </div>
                 </div>
             </section>
             <section className={styles.team}>
                 <div className={styles.teamHeader}>
-                    <h1><FormattedMessage id="team"/></h1>
+                    <h1><FormattedMessage id="team" /></h1>
                     <div className={styles.dropdown}>
                         <button className='dropdownTrigger' onClick={() => { setOpen(!open) }} >All positions</button>
                         <div className={`dropdownMenu ${open ? `active` : `inactive`}`} >
@@ -92,11 +95,12 @@ export default function About() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
 
-function DropdownItem({text}) {
+function DropdownItem({ text }) {
     return (
         <li className={styles.dropdownItem}>
             <a>{text}</a>

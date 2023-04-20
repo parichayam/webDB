@@ -1,5 +1,6 @@
 .body {
-    background-color: rgb(192, 216, 242);
+    background-color: rgb(214, 214, 214);
+    padding-bottom: 20px;
 }
 
 .header {
@@ -27,8 +28,15 @@
     padding-bottom: 30px;
 }
 
+.container, .container_odd {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
 .checkpoint {
-    max-width: 33em;
+    max-width: 34em;
     padding-top: 2em;
     padding-bottom: 2em;
     position: relative;
@@ -36,12 +44,11 @@
 
 .checkpoint:nth-child(odd) {
     border-left: 2px solid #9c9c9c;
-    padding-left: 3em;
+    padding-left: 10px;
     transform: translateX(16em);
 }
 
 .checkpoint:nth-child(even) {
-    border-right: 2px solid #9c9c9c;
     padding-right: 3em;
     transform: translateX(-270px);
     display: flex;
@@ -49,17 +56,37 @@
     justify-content: flex-end;
 }
 
+.checkpoint:nth-child(odd)::before{
+    content: '';
+    background: #9c9c9c;
+    width: 2px;
+    height: 4em;
+    position: absolute;
+    transform: translateX(-12px);
+    top: -40px;
+}
+
+.checkpoint:nth-child(odd) div::before {
+    content: '';
+    background: #9c9c9c;
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 2px;
+    transform: translateX(-18px);
+    border-radius: 50%;
+}
+
+.container_odd .contentImg {
+    text-align: end;
+}
+
 .contentImg p {
     font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;
-    color: rgb(32, 140, 255);
+    color: rgba(223, 15, 119);
     padding-bottom: 25px;
-}
-
-.left_text {
-    display: grid;
-    justify-items: end;
 }
 
 .contentImg img {
@@ -87,6 +114,18 @@
     .timeline {
         width: 80vw;
     }
+    .container_odd {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+    }
+    .container_odd .contentImg {
+        text-align: start;
+    }    
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
     .checkpoint:nth-child(odd) {
         width: 100%;
         transform: none;
@@ -100,6 +139,9 @@
         border-left: 2px solid #9c9c9c;
         display: block;
     }
+    .checkpoint:nth-child(odd)::before {
+        display: none;
+    }
     .timeline .checkpoint::before {
         width: 2px;
         height: 4em;
@@ -109,5 +151,8 @@
     }
     .left_text {
         display: block;
+    }
+    .checkpoint:nth-child(odd) div::before{
+        display: none;
     }
 }

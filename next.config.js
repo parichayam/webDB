@@ -2,8 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   i18n: {
-    locales: ['en', 'th'],
-    defaultLocale: 'en',
+    locales: [localStorage.getItem("i18nextLng") ? localStorage.getItem("i18nextLng") : "th"],
   },
 };
 

@@ -6,7 +6,7 @@
 }
 
 .background {
-  background-color: rgb(83, 83, 83);
+  background-image: linear-gradient(to right, rgba(223, 15, 119), rgba(231, 72, 106), rgba(247, 156, 73));
 }
 
 /* team info */
@@ -79,7 +79,7 @@
     align-content: center;
     text-align: center;
     transition: 0.5s ease;
-    background-color: #54abe8;
+    background-image: linear-gradient(to right,rgba(223,15,119), rgba(231,72,106), rgba(247,156,73));
     line-height: 2rem;
   }
 }

@@ -19,7 +19,7 @@
     top: 40px;
     width: 350px;
     height: calc(100% - 80px);
-    background: #03a9f4;
+    background: #bdbdbd;
     z-index: 1;
     padding: 40px;
     display: flex;
@@ -112,7 +112,7 @@
 
 .input_box button {
     width: 100px;
-    background-color: #03a9f4;
+    background-color: rgba(223, 15, 119);
     height: 50px;
     font-size: 18px;
     font-weight: 700;

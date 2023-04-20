@@ -5,8 +5,23 @@
     "about": "เกี่ยวกับเรา",
     "contact": "ติดต่อ",
 
+    "home.header":"สร้าง Landing Page เจ๋งๆ ด้วย Apolo",
+    "home.text": "* ใช้งานได้บน iPhone, iPad และอุปกรณ์ Android ทั้งหมด",
+
+    "feature.title1":"ทดลองใช้ฟรี",
+    "feature.title2":"ใช้งานง่าย",
+    "feature.title3":"ปรับแต่งโค้ดได้",
+
+    "section.title":"ทำไมเจ้าของธุรกิจขนาดเล็กถึงรัก Apolo",
+
+    "signup.title":"สมัครเพื่อรับข่าวสาร",
+    "signup.text1":"คุณจะได้รับแจ้งเกี่ยวกับการอัปเดต ข้อเสนอพิเศษ และแผนการเปลี่ยนแปลงของ apolo!",
+    "signup.button":"ลงทะเบียน",
+    "signup.text2":"การลงทะเบียนกับเว็บไซต์ apolo แสดงว่าคุณยอมรับข้อกำหนดการใช้งาน",
+
+
     "about.head": "เกี่ยวกับเรา",
-    "about.info": "Ventive เป็นหน่วยงานด้านดิจิทัลที่ให้บริการเต็มรูปแบบซึ่งรวมเอาความคิดสร้างสรรค์และความเฉียบแหลมด้านเทคนิคเพื่อช่วยให้ธุรกิจเติบโต",
+    "about.info": "apolo เป็นหน่วยงานด้านดิจิทัลที่ให้บริการเต็มรูปแบบซึ่งรวมเอาความคิดสร้างสรรค์และความเฉียบแหลมด้านเทคนิคเพื่อช่วยให้ธุรกิจเติบโต",
     "mission": "ภาระกิจ",
     "team": "ทีมของเรา",
 
@@ -27,7 +42,7 @@
     "news.header": "โอกาสที่ดีที่สุดในการขยายความสำเร็จของคุณให้สูงสุด",
     "news.content": "การขยายขอบเขต",
     "news.content.topic1": "#1 ความก้าวหน้าในอาชีพและงานอดิเรก",
-    "news.content2": "Scheduling",
+    "news.content2": "การจัดตารางเวลา",
     "news.content.topic2": "#2 ตารางเวลาที่ยืดหยุ่น & สิ่งแวดล้อม",
     "news.content3": "วินัยในตนเอง",
     "news.content.topic3": "#3 วินัยในตนเองและความรับผิดชอบ",
@@ -38,21 +53,19 @@
     "contact.title.right": "ส่งข้อความ",
     "send": "ส่ง",
 
-    "footer.content.title": "อยากร่วมงานกับเราไหม?",
-    "footer.col1.title": "ติดต่อเรา",
-    "footer.col1.link1": "hello@gmail.com",
-    "footer.col1.link2": "+3356 1589 2105",
-    "footer.col1.link3": "32, Avenue Newyork",
-    "footer.col1.link4": "321994 Newyork",
+    "footer.col1.title": "ติดต่อ",
+    "footer.col1.link1": "การติดตั้ง",
+    "footer.col1.link2": "การเข้าสู่ระบบ",
 
-    "footer.col2.title": "เริ่มต้นใช้งาน",
-    "footer.col2.link1": "มือถือ & การพัฒนาเว็บไซต์",
-    "footer.col2.link2": "ประสบการณ์ผู้ใช้ ",
-    "footer.col2.link3": "การตลาด & การสร้างแบรนด์",
-    "footer.col2.link4": "กลยุทธ์ทางธุรกิจ",
+    "footer.col2.title": "apolo",
+    "footer.col2.link1": "เกี่ยวกับเรา",
+    "footer.col2.link2": "ดาวน์โหลด",
+    "footer.col2.link3": "เข้าระบบ",
 
-    "footer.button": "ร่วมงานกับเรา",
-    "footer.col3.title": "ติดตามเรา"
-
+    "footer.col3.title": "ช่วยเหลือ",
+    "footer.col3.link1": "การติดตั้ง",
+    "footer.col3.link2": "การเข้าสู่ระบบ",
+    "footer.col3.link3": "เนื้อหา",
+    "footer.col3.link4": "การแก้ไขระบบ"
 
 }
