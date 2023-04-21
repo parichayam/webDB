@@ -22,10 +22,10 @@ export default function Navbar() {
                 <div className={styles.navbarMenu}> 
                 <ul className={click ? "navbar-menu active" : "navbar-menu"}>
                     <li onClick={closeMolbileMenu}><a href="/"><FormattedMessage id="home"/></a></li>
-                    <li onClick={closeMolbileMenu}><a href="/services"><FormattedMessage id="service"/></a></li>
-                    <li onClick={closeMolbileMenu}><a href="/news"><FormattedMessage id="news"/></a></li>
-                    <li onClick={closeMolbileMenu}><a href="/about"><FormattedMessage id="about"/></a></li>
-                    <li><a href='/contact'><button type="submit"><FormattedMessage id="contact"/></button></a></li> 
+                    <li onClick={closeMolbileMenu}><a href="/services" ><FormattedMessage id="service"/></a></li>
+                    <li onClick={closeMolbileMenu}><a href="/news" ><FormattedMessage id="news"/></a></li>
+                    <li onClick={closeMolbileMenu}><a href="/about" ><FormattedMessage id="about"/></a></li>
+                    <li><a href='/contact'><button type="submit" ><FormattedMessage id="contact"/></button></a></li> 
                 </ul>
                 <div className="mobile-menu" onClick={handleClick}>
                     {click? (

@@ -7,7 +7,8 @@ import Link from 'next/link';
 import { faSmile } from '@fortawesome/free-regular-svg-icons';
 
 export default function Footer() {
-    const { locales } = useRouter();
+  //  const { locales } = useRouter();
+  let router = useRouter();
 
     return (
         <>
@@ -55,8 +56,8 @@ export default function Footer() {
 
                             <div className={styles.languages}>
                                 <p>Select language:</p>
-                                {[...locales].sort().map((locale) => (
-                                    <Link key={locale} href="" locale={locale}>
+                                {router.locales.map((locale) => (
+                                    <Link key={locale} href={router.asPath} locale={locale}>
                                         {locale}
                                     </Link>
                                 ))}
