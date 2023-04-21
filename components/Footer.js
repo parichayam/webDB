@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from '@/styles/Footer.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { FormattedMessage } from 'react-intl'
 import { useRouter } from 'next/router';
 import Link from 'next/link';
@@ -51,7 +50,7 @@ export default function Footer() {
 
                         <div className={styles.footer_col}>
                             <ul>
-                                <li><a href="#"><FontAwesomeIcon icon={faFacebook} className={styles.icon}/></a></li>
+                                <li><a href="#"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/46-facebook-512.png" width={'30px'} height={'30px'}></img></a></li>
                             </ul>
 
                             <div className={styles.languages}>
@@ -61,11 +60,9 @@ export default function Footer() {
                                         {locale}
                                     </Link>
                                 ))}
-
                             </div>
-
+                            
                         </div>
-
                     </div>
                 </div>
             </div>

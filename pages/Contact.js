@@ -16,17 +16,21 @@ export default function Contact() {
 
   const addMessage = async (e) => {
     e.preventDefault();
-
+    if(!user || !email || !message){
+      alert("Please fill your name, email, and message in the form")
+      }
+    else{     
     try {
       const docRef = await addDoc(collection(db, "contact"), {
         username: user,
         email: email,
-        message: message
+        message: message,        
       })
       alert("Thank you for your message!")
     } catch (e) {
       console.error("error adding document: ", e)
     }
+  }
   }
 
   return (
@@ -66,7 +70,7 @@ export default function Contact() {
                     type="text"
                     onChange={(e) => setUser(e.target.value)}
                     placeholder='Your Name'
-                    required
+                    name='name' value={user.name}
                     width={400} />
                 </div>
                 <div className={styles.input_box}>
@@ -74,14 +78,14 @@ export default function Contact() {
                     type="text"
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder='Your Email'
-                    required
+                    name='email' value={email.email}
                     width={400} />
                 </div>
                 <div className={styles.input_box}>
                   <textarea
                     onChange={(e) => setMessage(e.target.value)}
                     placeholder='Typing your message here...'
-                    required>
+                    name='message' value={message.message}>
                   </textarea>
                 </div>
                 <div className={styles.input_box}>
